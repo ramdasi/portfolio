@@ -3,6 +3,7 @@ import dp from './src/dp.jpg'
 import Skill from './layouts/skill'
 export default function Aboutme() {
     return (
+        <>
         <div className="container-md p-5 ">
         <div className="row justify-content-center">
             <div className=" col-lg-2 col-md-3 col-sm-4 col-5 ">
@@ -13,8 +14,13 @@ export default function Aboutme() {
             <b>-BE Comp at Sppu, 2023</b>
 </p>
 </div>
-        
-        <Skill/>
+        <div className=" font-weight-bolder h3 col text-center m-5">Skills</div>
+        <Skill skill="Full stack Python Developer"/>
+        <Skill skill="Fluent C++ Programmer"/>
+        <Skill skill="React and Django Web Developer" />
+        <Skill skill="HTML, CSS, Bootstrap, Js Developer" />
+        <Skill skill="Logo Designer" />
         </div>
+        </>
     )
 }
