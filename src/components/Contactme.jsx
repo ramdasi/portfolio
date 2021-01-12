@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import contactsvg from './src/undraw_contact_us.svg'
+
 export class Contactme extends Component {
     render() {
         return (
