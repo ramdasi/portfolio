@@ -7,7 +7,7 @@ export default function header() {
           
 
             <nav class="navbar navbar-expand-md navbar-light ">
-              <a class="navbar-brand mx-5 bold" href="/">Ishwar Ramdasi</a>
+              <a class="navbar-brand mx-5 bold" href="/">Ishwar Ramdasi</a>v1.1
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
