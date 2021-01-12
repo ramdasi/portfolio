@@ -12,7 +12,7 @@
 
 .fadeinr{
     
-    animation: lentry 1s 1;
+    animation: lentry 2s 1;
     position:relative;
 
 }
@@ -30,7 +30,7 @@
 
 .fadeinl{
     
-    animation: rentry 1s 1;
+    animation: rentry 2s 1;
     position:relative;
 
 }
