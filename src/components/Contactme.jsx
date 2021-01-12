@@ -3,9 +3,23 @@ import React, { Component } from 'react'
 export class Contactme extends Component {
     render() {
         return (
-            <div className="form-check">
-                
+            <>
+            <div className=" d-flex justify-content-center">
+            <div className="col-md-5 col-8 mx-sm-5 mx-2 my-5 p-3 border rounded bg-light shadow-sm">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" />
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <div class="col-auto text-right">
+                    <button type="submit" class="btn btn-primary mb-3">Send</button>
+                </div>
             </div>
+            </div>
+            </>
         )
     }
 }
