@@ -1,11 +1,20 @@
 *{
     margin:0px;
     font-family: 'Noto Sans';
-
+    transition: ease-in-out 0.7s;
 }
 
 
 
+ a:link,a:hover,a:visited {
+    text-decoration: none !important;
+    
+}
+a:active,a:focus,.currentlink{
+    color: rgb(138, 7, 224) !important;
+    border-bottom:rgb(138, 7, 224) solid 2px !important;
+    text-decoration: none !important;
+}
 
 
 

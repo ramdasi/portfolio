@@ -18,7 +18,7 @@ export default function Aboutme() {
         
         </div>
         <div className=" font-weight-bolder h3 col text-center my-5">Skills</div>
-        <div className="row d-flex justify-content-center">
+        <div className="row d-flex w-100 justify-content-center">
             <Skill skill="Full stack Python Developer"/>
             <Skill skill="Fluent C++ Programmer"/>
             <Skill skill="React and Django Web Developer" />

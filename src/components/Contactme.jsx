@@ -7,8 +7,9 @@ export class Contactme extends Component {
             <div className="h4 d-flex m-3 text-center justify-content-center">
                 Get in touch with me
             </div>
-            <div className=" d-flex justify-content-center text-center">
-                <div className="row col-md-5 col-8 mx-sm-5 mx-2 my-5 p-3  border rounded z1 bg-white shadow fadeinl">
+            <div className="container-fluid">
+            <div className=" d-flex flex-wrap order-md-1 order-2  justify-content-center text-center">
+                <div className="row col-md-5 col-10  m-1 p-3   rounded z1 bg-white shadow fadeinl">
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="email" placeholder="name@example.com" />
@@ -18,15 +19,15 @@ export class Contactme extends Component {
                         <textarea class="form-control" id="message" rows="3"></textarea>
                     </div>
                     <div class="col-auto text-right">
-                        <button type="submit" class="btn btn-primary mb-3">Send</button>
+                        <button type="submit" class="btn btn-outline-primary">Send</button>
                     </div>
                 </div>
-                
-            </div>
-            <div className="col-auto">
+                <div className=" container  my-md-5 order-md-2 order-1 col-md-6 col-12">
                     <img src={contactsvg} alt="img" className=" img-fluid" style={{zIndex:-1,}}/>
                 </div>
+            </div>
             
+                </div>
             </>
         )
     }

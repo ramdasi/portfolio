@@ -7,16 +7,18 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import {BrowserRouter,Route} from 'react-router-dom';
 import Contactme from './components/Contactme';
-
+import Footer from './components/layouts/footer'
 function App() {
   return (
     <div className="App">
       <>
-      <Header/>
+      
       <BrowserRouter>
+        <Header/>
         <Route exact path="/" component={Aboutme}/>
-        <Route path="/projects" component={Projects}/>
-        <Route path="/contactme" component={Contactme} />
+        <Route exact path="/projects" component={Projects}/>
+        <Route exact path="/contactme" component={Contactme} />
+        <Footer/>
       </BrowserRouter>
       </>
     </div>
