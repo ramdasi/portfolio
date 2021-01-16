@@ -17,13 +17,26 @@ export default function Aboutme() {
 
         
         </div>
-        <div className=" font-weight-bolder h3 col text-center my-5">Skills</div>
-        <div className="row d-flex w-100 justify-content-center">
-            <Skill skill="Full stack Python Developer"/>
-            <Skill skill="Fluent C++ Programmer"/>
-            <Skill skill="React and Django Web Developer" />
-            <Skill skill="HTML, CSS, Bootstrap, Js Developer" />
-            <Skill skill="Logo Designer" />
+        
+        <div className="row d-flex w-100 justify-content-center  " >
+        <div className=" font-weight-bolder h3 col-12 text-center my-5 mb-5 "><i class="fas px-3 fa-pencil-ruler"></i>Skills</div>
+        <Skill skill="Python Developement"
+                    description="Machine Learning,Browser Automation, Deep Learning, Django and many more"
+                    icon="fab fa-python"
+            />
+            <Skill skill="C++ Programming"
+                    description="C++ data structures, Object oriented c++, and Graphics libraries"
+                    icon="fas fa-laptop-code"
+            />
+            <Skill skill="Web Developement" 
+                    description="HTML, CSS, JS, ReactJS, Bootstrap, php. This site is also developed by me"
+                    icon="fas fa-server"
+            />
+            
+            <Skill skill="Graphic Designing" 
+                    description="Photoshop editing, GIMP, Illustrations, SVG, Logo Designing"
+                    icon="fas fa-palette"
+            />
         </div>
         </>
     )

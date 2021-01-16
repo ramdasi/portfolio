@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin:0px;
-    font-family: 'Noto Sans';
+    font-family: 'Ubuntu';
     transition: ease-in-out 0.7s;
+    color:rgb(70, 70, 70);
 }
 
 
@@ -16,7 +18,9 @@ a:active,a:focus,.currentlink{
     text-decoration: none !important;
 }
 
-
+.bg-skill{
+    background-color: rgb(73, 25, 161);
+}
 
 
 .fadeinr{

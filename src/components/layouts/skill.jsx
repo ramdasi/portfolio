@@ -3,9 +3,14 @@ import React, { Component } from 'react'
 export class skill extends Component {
     render() {
         return (
-            <div className=" shadow p-3 col-md-3 col-5 m-md-2 m-1 border-blue-4 font-weight-bold text-center">
-                {this.props.skill}
+            <>
+            <div className=" p-3 pt-0 col-md-2 col-sm-5 col-9 m-md-2 m-1 border-blue-4  border-left fadeinl">
+            <i class={"fa-3x p-2 "+this.props.icon}></i><br/>
+               <b> {this.props.skill}</b>
+            <br/>
+                {this.props.description}
             </div>
+            </>
         )
     }
 }
