@@ -4,6 +4,9 @@ import { useEffect } from 'react';
 const SideNav = ({ sections }) => {
   useEffect(() => {
     const handleScroll = () => {
+      if(!window){
+        return 
+      }
       const fromTop = window.scrollY + 10; // Adjust this value based on your header height
       document.querySelectorAll('.nav-link').forEach((link:any) => {
         const section = document.querySelector(link.hash);
