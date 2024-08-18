@@ -10,11 +10,11 @@ const AboutSection = () => {
     >
       <h2 className="text-4xl font-bold mb-8">About Me</h2>
       <p className="text-lg max-w-3xl mb-8">
-        I'm a Full Stack Developer with a strong foundation in JavaScript,
+        {` I'm a Full Stack Developer with a strong foundation in JavaScript,
         TypeScript, Node.js, React.js, and Next.js. I have a passion for
         building responsive and user-friendly web applications. With experience
         in cloud technologies like AWS, I've also designed and implemented
-        scalable microservices architectures.
+        scalable microservices architectures.`}
       </p>
       <Tabs defaultValue="languages" className="w-full max-w-3xl">
         <TabsList className="flex justify-center">

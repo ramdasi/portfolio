@@ -9,11 +9,11 @@ const HeroSection = () => {
       <div className="text-7xl font-bold">
         Hello
         <br />
-        I'm Ishwar
+        {`I'm Ishwar`}
       </div>
       <p className="text-lg mt-4 max-w-2xl">
-        I'm an innovative Full Stack Developer with expertise in the MERN stack, AWS, CI/CD pipelines, and microservices architecture.
-        I love building scalable solutions and have worked on various impactful projects.
+        {`I'm an innovative Full Stack Developer with expertise in the MERN stack, AWS, CI/CD pipelines, and microservices architecture.
+        I love building scalable solutions and have worked on various impactful projects.`}
       </p>
       <div className="mt-8">
         <Link href="/#about">
